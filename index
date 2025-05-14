@@ -1,4 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta charset="UTF-8"/>
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CodeTrack - Dashboard</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>CodeTrack</h1>
+  </header>
 
+  <main>
+    <section id="repo-list">
+      <h2>Your Repositories</h2>
+      <ul id="repos"></ul>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
