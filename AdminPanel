@@ -11,4 +11,9 @@ const mockRepos = [
 mockRepos.forEach(repo => {
   const li = document.createElement('li');
   li.innerHTML = <strong>${repo.name}</strong>: ${repo.lastCommit};
-   
+ const repoList = document.getElementById('repos');
+
+  const li = document.createElement('li');
+  li.innerHTML = <strong>${repo.name}</strong>: ${repo.lastCommit};
+  repoList.appendChild(li);
+});  
