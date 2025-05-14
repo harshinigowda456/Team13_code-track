@@ -1,0 +1,6 @@
+const repoList = document.getElementById('repos');
+
+const mockRepos = [
+  { name: "PortfolioSite", lastCommit: "Updated homepage design" },
+  { name: "WeatherApp", lastCommit: "Fixed API bug" },
+  
