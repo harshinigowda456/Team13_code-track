@@ -53,4 +53,59 @@ Here is a 260+ line HTML-only prototype for a project titled "CodeTrack" (a basi
       padding: 0;
     }
 
-   
+  Here is a 260+ line HTML-only prototype for a project titled "CodeTrack" (a basic front-end layout for a Source Code Management system). It includes structured sections like repository management, commit history, and code viewer UI components.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CodeTrack - Source Code Management</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #24292e;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #0366d6;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .section {
+      background-color: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .section h2 {
+      color: #333;
+    }
+
+    .repo-list, .commit-list {
+      list-style: none;
+      padding: 0;
+    }
+
+     
