@@ -3,4 +3,12 @@ const repoList = document.getElementById('repos');
 const mockRepos = [
   { name: "PortfolioSite", lastCommit: "Updated homepage design" },
   { name: "WeatherApp", lastCommit: "Fixed API bug" },
-  
+ const repoList = document.getElementById('repos');
+
+  { name: "BlogEngine", lastCommit: "Added comment moderation" }
+];
+
+mockRepos.forEach(repo => {
+  const li = document.createElement('li');
+  li.innerHTML = <strong>${repo.name}</strong>: ${repo.lastCommit};
+   
