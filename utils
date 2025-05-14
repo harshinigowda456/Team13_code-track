@@ -108,4 +108,7 @@ Here is a 260+ line HTML-only prototype for a project titled "CodeTrack" (a basi
       padding: 0;
     }
 
-     
+    nav{
+    background-color:#0366d6;
+    padding:item1rem;
+    display:flex
