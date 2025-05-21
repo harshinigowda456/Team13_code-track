@@ -9,4 +9,49 @@
             margin: 0;
             padding: 20px;
         }
+header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        label, input, textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Code Track</h1>
+    </header>
+    <div class="container">
+        <h2>Submit Code Snippet</h2>
+        <form>
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title">
+            <label for="code">Code:</label>
+            <textarea id="code" name="code" rows="8"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+---
 
