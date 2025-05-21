@@ -51,6 +51,52 @@ header {
     </div>
 </body>
 </html>
+<div class="container">
+        <h2>Submit Code Snippet</h2>
+        <form>
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="code">Code:</label>
+            <textarea id="code" name="code" rows="8" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <!-- Clear button will be added here by JS -->
+
+        <!-- Snippet display section will be injected here -->
+    </div>
+
+    <footer style="text-align: center; margin-top: 40px; padding: 20px; background-color: #f1f1f1;">
+        <p>&copy; 2025 Code Track. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<section style="margin-top: 40px;">
+        <h3>Recent Activity</h3>
+        <ul id="activityLog" style="list-style: none; padding-left: 0;">
+            <!-- JavaScript will insert recent activity here -->
+        </ul>
+    </section>
+ <!-- Modal for snippet details -->
+    <div id="snippetModal" style="
+        display: none;
+        position: fixed;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background-color: rgba(0,0,0,0.6);
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    ">
+        <div style="
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+
 
 
 form = document.querySelector("form");
