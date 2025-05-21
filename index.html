@@ -58,7 +58,13 @@ form = document.querySelector("form");
     const container = document.querySelector(".container");
 
     const snippets = [];
+ form.addEventListener("submit", (e) => {
+        e.preventDefault();
 
+        const title = titleInput.value.trim();
+        const code = codeInput.value.trim();
+
+        if (!title\\code)
 
 ---
 
